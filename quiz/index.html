@@ -13,13 +13,13 @@
         <div class="screen active" id="start-screen">
             <h1 id="or">Quiz Time</h1>
             <p>Test your knowledge with these fun questions</p>
-            <button class="start-btn">Start Quiz</button>
+            <button class="start-btn" id="start-btn">Start Quiz</button>
         </div>
-        <div class="screen " id="quiz screen">
+        <div class="screen " id="quiz-screen">
             <div class="quiz-header">
-                <h2 class="question-text"> question goes here</h2>
+                <h2 id="question-text"> Question Goes Here</h2>
                 <div class="quiz-info">
-                    <p>Question <span id="current-question">1</span> of <span id="total-question">total</span></p>
+                    <p>Question <span id="current-question">1</span> of <span id="total-questions">total</span></p>
                     <p>Score : <span id="score">0</span></p>
                 </div>
             </div>
@@ -39,5 +39,6 @@
             <button id="restart-btn">Restart Quiz</button>
         </div>
     </div>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
